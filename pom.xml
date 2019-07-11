@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>MyProject</finalName>
+    <finalName>Project1</finalName>
   </build>
 </project>
