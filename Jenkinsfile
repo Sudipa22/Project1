@@ -41,7 +41,7 @@ sh label: '', script: "curl -u $usr:$pass --upload-file target/Project1.war http
             
         }
         }
-        stage('Deploy to test'){
+        stage('Deploy'){
     steps {
             sh "cd /home/ubuntu/sudipa && ansible-playbook -i inventory sudipa.yml"
         }
